@@ -71,7 +71,7 @@ fn display_board(board: &[char]) -> String {
     )
 }
 
-fn get_player_input(board: &[char], current_player: char) -> String {
+fn get_player_input(_board: &[char], current_player: char) -> String {
     loop {
         let mut input = String::new();
         println!("\n{}'s turn. Enter a position (1-9):", current_player);
